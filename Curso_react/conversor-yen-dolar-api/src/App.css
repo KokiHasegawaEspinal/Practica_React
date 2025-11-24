@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cajaPrincipal{
+  display: block;
+  margin: auto;
+  width: 500px;
+  background-color: cornsilk;
+}
+h1{
+
+  text-align: center;
+}
+
+.input-container{
+  position: relative;
+  display: block;
+  margin: auto;
+ 
+}
+
+.currency{
+  position: absolute;
+  left: 200px;
+  top: 25%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #444;
+}
+
+.input-container input{
+  padding-left: 25px;
+  display: block;
+  width: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+.centrarElementos{
+
+  display: block;
+  margin: auto;
+  text-align: center;
+
+}
+
+.resultado{
+
+  font-size: 2em;
+  font-weight: bold;
+}
+
+body{
+
+  background-image: url("./assets/money.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
