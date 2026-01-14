@@ -6,9 +6,8 @@ function App() {
   return (
     <div className="App">
      
-      <MiBoton>Entrar</MiBoton>
-
-
+      <MiBoton entrar={true}>Entrar</MiBoton>
+      <MiBoton salir={false}>Salir</MiBoton>
     </div>
   );
 }
